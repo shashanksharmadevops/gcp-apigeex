@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProxyEndpoint name="demo-endpoint">
+<Description/>
+<FaultRules/>
+<PreFlow name="PreFlow">
+<Request>
+<Step>
+<Name>AC-Allow-All-Deny-Few</Name>
+</Step>
+<Step>
+<Name>SA-RateLimit</Name>
+</Step>
+</Request>
+<Response/>
+</PreFlow>
+<PostFlow name="PostFlow">
+<Request>
+</Request> <Response>
+</Response>
+</PostFlow>
+<Flows/>
+<HTTPProxyConnection>
+<BasePath>/demo</BasePath>
+<Properties/>
+</HTTPProxyConnection>
+<RouteRule name="default">
+<TargetEndpoint>demo-endpoint</TargetEndpoint>
+</RouteRule>
+</ProxyEndpoint>

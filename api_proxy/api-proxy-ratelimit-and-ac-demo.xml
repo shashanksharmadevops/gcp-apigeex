@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" • standalone="yes"?>
+<APIProxy revision="1" name="ratelimit-and-ac-demo">
+<DisplayName>Rate Limit and Access Control - Demo</DisplayName>
+<Description>API Proxy demonstrating rate limiting and access control policies. </Description>
+<BasePaths>/demo</BasePaths>
+<Policies>
+<Policy>AC-Allow-All-Deny-Few</Policy>
+<Policy>SA-RateLimit</Policy>
+</Policies>
+<ProxyEndpoints>
+  <ProxyEndpoint>demo-endpoint</ProxyEndpoint>
+</ProxyEndpoints>
+<Resources>
+</Resources>
+<TargetEndpoints>
+<TargetEndpoint>demo-endpoint</TargetEndpoint>
+</TargetEndpoints>
+</APIProxy>
