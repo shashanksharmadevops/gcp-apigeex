@@ -4,8 +4,8 @@
 <Description>API Proxy demonstrating rate limiting and access control policies. </Description>
 <BasePaths>/demo</BasePaths>
 <Policies>
-<Policy>AC-Allow-All-Deny-Few</Policy>
-<Policy>SA-RateLimit</Policy>
+<Policy>AccessControl-IP-Based-Restriction-Policy</Policy>
+<Policy>SpikeArrest-Throttling-RateLimit-Control-Policy</Policy>
 </Policies>
 <ProxyEndpoints>
   <ProxyEndpoint>demo-endpoint</ProxyEndpoint>
