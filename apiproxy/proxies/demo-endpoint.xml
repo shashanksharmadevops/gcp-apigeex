@@ -5,10 +5,10 @@
 <PreFlow name="PreFlow">
 <Request>
 <Step>
-<Name>AC-Allow-All-Deny-Few</Name>
+<Name>AccessControl-IP-Based-Restriction-Policy</Name>
 </Step>
 <Step>
-<Name>SA-RateLimit</Name>
+<Name>SpikeArrest-Throttling-RateLimit-Control-Policy</Name>
 </Step>
 </Request>
 <Response/>
