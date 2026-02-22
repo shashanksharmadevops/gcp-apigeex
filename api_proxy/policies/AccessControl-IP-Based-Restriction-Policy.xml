@@ -4,9 +4,10 @@
 <Properties/>
 <IgnoreTrueClientIPHeader>true</IgnoreTrueClientIPHeader>
 <IPRules noRuleMatchAction="ALLOW">
-<MatchRule action="DENY">
-<SourceAddress mask="32">x.x.x.x</SourceAddress>
-</MatchRule>
+    <MatchRule action="DENY">
+        <!-- UPDATE IP X.X.X.X IN THE LINE BELOW -->
+        <!-- <SourceAddress mask="32">X.X.X.X</SourceAddress> --> 
+    </MatchRule>
 </IPRules>
 <ValidateBasedOn>X_FORWARDED_FOR_ALL_IP</ValidateBasedOn>
 </AccessControl>
