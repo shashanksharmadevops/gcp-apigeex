@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AccessControl async="false" continuenError="false" enabled="true" name="AC-Allow-All-Deny-Few" >
+<DisplayName>AC-Allow-All-Deny-Few</DisplayName>
+<Properties/>
+<IgnoreTrueClientIPHeader>true</IgnoreTrueClientIPHeader>
+<IPRules noRuleMatchAction="ALLOW">
+    <MatchRule action="DENY">
+        <!-- UPDATE IP X.X.X.X IN THE LINE BELOW -->
+        <!-- <SourceAddress mask="32">X.X.X.X</SourceAddress> --> 
+    </MatchRule>
+</IPRules>
+<ValidateBasedOn>X_FORWARDED_FOR_ALL_IP</ValidateBasedOn>
+</AccessControl>
