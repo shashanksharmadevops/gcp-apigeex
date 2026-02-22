@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<AccessControl async="false" continuenError="false" enabled="true" name="AC-Allow-All-Deny-Few" >
-<DisplayName>AC-Allow-All-Deny-Few</DisplayName>
+<AccessControl async="false" continuenError="false" enabled="true" name="AccessControl-IP-Based-Restriction-Policy" >
+<DisplayName>AccessControl-IP-Based-Restriction-Policy</DisplayName>
 <Properties/>
 <IgnoreTrueClientIPHeader>true</IgnoreTrueClientIPHeader>
 <IPRules noRuleMatchAction="ALLOW">
