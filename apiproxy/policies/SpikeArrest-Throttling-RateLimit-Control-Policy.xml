@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<SpikeArrest continueOnError="false" enabled="true" name="SA-RateLimit">
-  <DisplayName>SA-RateLimit</DisplayName>
+<SpikeArrest continueOnError="false" enabled="true" name="SpikeArrest-Throttling-RateLimit-Control-Policy">
+  <DisplayName>SpikeArrest-Throttling-RateLimit-Control-Policy</DisplayName>
   <Properties/>
   <!--
   <Identifier ref="request.header.client" />
