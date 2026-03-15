@@ -2,10 +2,11 @@
 <SpikeArrest continueOnError="false" enabled="true" name="SpikeArrest-Throttling-RateLimit-Control-Policy">
   <DisplayName>SpikeArrest-Throttling-RateLimit-Control-Policy</DisplayName>
   <Properties/>
+  <UseEffectiveCount>true</UseEffectiveCount> <!-- -->
+  <Rate>3pm</Rate> <!-- 3 requests per minute -->
   <!--
   <Identifier ref="request.header.client" />
   <MessageWeight ref="request.header.weight"/>
-  <Rate ref="request.header.custom_rate">3pm</Rate>
-  <UseEffectiveCount>true</UseEffectiveCount> 
+  <Rate ref="request.header.custom_rate">3pm</Rate> 
   -->
 </SpikeArrest>
